@@ -1,0 +1,23 @@
+.profile table tr td{
+	text-align: left;
+}
+.bai2 table{
+	border-collapse: collapse;
+	margin: 100px auto;
+	width: 50%;
+	border: 1px solid;
+	background-color: #BECCC8;
+}
+.bai2 table th, td{
+	padding: 7px;
+	text-align: left;
+}
+.bai2 table th{
+	background-color: #D0E8D7;
+}
+.bai2 table td:hover{
+	background-color: #8FB0CC;
+}
+.abc:hover{
+	background-color: #D39174;
+}

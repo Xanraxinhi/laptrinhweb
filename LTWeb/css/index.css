@@ -1,0 +1,182 @@
+body{
+  font-family: sans-serif;
+}
+#anhdaidien{
+  margin-top: 10px;
+  border-radius: 50%;
+  width: 24%;
+  height: auto;
+  border: solid 1px black;
+}
+
+#body
+{
+  width: 100%;
+  clear: left;
+  margin: 0;
+  padding: 0;
+}
+
+.left{
+  width: 50%;
+  float: left;
+}
+
+.right
+{
+  width: 50%;
+  float: left;
+}
+
+#top{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  background-color: #474e5d;;
+  height: 460px;
+}
+
+.centered {
+  color: black;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#top .left h6{
+  color: #D3BC4F;
+}
+#top .left h4{
+  color: #FFFFFF;
+}
+
+#top .left div{
+  border: 3px solid #87A6AB;
+  margin: 2cm 3cm;
+  height: 300px;
+  background-color: #9F9EB4;
+}
+
+#top .right table td{
+  text-align: left;
+  color: #479B82;
+}
+
+#top .right table{
+ border-left: 4px solid #87A6AB;
+  margin: 4cm 0cm;
+
+}
+
+footer div{
+  margin-top: 30px;
+  height: 35px;
+  text-align: center;
+  padding: 10px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.intro{
+  margin: 30px 0px;
+  width: 100%;
+  height: 447px;
+  background-color: #C7BDBD;
+}
+
+.skill{
+  margin: 30px 0px;
+  width: 100%;
+  height: 447px;
+  background-color: #C7BDBD;
+}
+
+.experence{
+  margin: 30px 0px;
+  width: 100%;
+  height: 447px;
+  background-color: #C7BDBD;
+}
+
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+  text-align: center;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+.wellcome{
+  border-bottom: 1px solid red;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.clearfix{
+  overflow: auto;
+  background-color: #E3EFF9;
+}
+.col-md-6{
+  margin: 70px 300px;
+  border: 1px solid;
+}
+
+.left-md-3{
+  width: 30%;
+  float: left;
+}
+
+.left-md-3 img{
+  margin: 10px;
+  border: 3px solid white;
+}
+.right-md-9
+{
+  width: 67%;
+  float: left;
+  margin-left: 15px;
+}
+
+.btn-logout{
+  margin-top: 30px;
+  text-align: center;
+}
+.btn-logout a{
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+
+.btn-logout button{
+  background-color: #838181;
+}
